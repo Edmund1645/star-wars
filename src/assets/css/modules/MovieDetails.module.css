@@ -1,0 +1,9 @@
+.container {
+  width: 90%;
+  max-width: 768px;
+  margin: 80px auto;
+}
+
+.opening_crawl {
+  line-height: 2;
+}

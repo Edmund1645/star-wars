@@ -1,0 +1,50 @@
+@import-normalize;
+
+:root {
+  --sw-yellow: #ffe300;
+  --sw-black: #000000;
+  --sw-white: #ffffff;
+  --sw-blue: #394a59;
+  --sw-green: #556567;
+}
+
+@font-face {
+  font-family: 'Star Jedi Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Star Jedi Regular'), url('../fonts/Starjedi.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  border: 3px solid var(--sw-yellow);
+  background-color: var(--sw-black);
+  color: var(--sw-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Star Jedi Regular';
+}
+
+a {
+  color: var(--sw-yellow);
+}
+
+button {
+  cursor: pointer;
+}
+.request_status {
+  text-align: center;
+}
+.request_status_error {
+  color: red;
+}

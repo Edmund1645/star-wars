@@ -1,0 +1,22 @@
+.table_container {
+  width: 100%;
+  max-width: 100%;
+  overflow: auto;
+}
+.table {
+  border: 1px solid var(--sw-white);
+  border-spacing: 0;
+  width: 100%;
+  text-align: left;
+}
+
+thead > tr > th {
+  border: 1px solid var(--sw-white);
+  padding: 20px;
+}
+tr > td {
+  border: 1px solid var(--sw-white);
+  /* border-left: 1px solid var(-sw-white);
+  border-right: 1px solid var(--sw-white); */
+  padding: 20px;
+}

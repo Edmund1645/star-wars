@@ -1,0 +1,53 @@
+.movie_picker {
+  background-color: transparent;
+  padding: 10px 40px;
+  color: var(--sw-white);
+  font-weight: 500;
+  border: 2px solid var(--sw-white);
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: border-color 0.3s, color 0.1s;
+}
+.movie_picker:hover {
+  border-color: var(--sw-yellow);
+  color: var(--sw-yellow);
+}
+
+.movies_selector_container {
+  display: flex;
+  justify-content: center;
+}
+
+.movie_dropdown_container {
+  position: relative;
+}
+
+.movies_menu {
+  width: 240px;
+  list-style-type: none;
+  position: absolute;
+  z-index: 300;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px 0px;
+  background-color: var(--sw-blue);
+  border-radius: 5px;
+}
+
+.movies_menu_item {
+  font-size: 0.85rem;
+}
+.movies_menu_item > button {
+  border-radius: 0px;
+  text-align: left;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: var(--sw-white);
+  padding: 10px 20px;
+}
+.movies_menu_item > button:hover {
+  background-color: var(--sw-yellow);
+  color: var(--sw-black);
+}
