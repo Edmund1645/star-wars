@@ -15,6 +15,7 @@
 
 .gender_filter_container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
 }
