@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 100%;
   overflow: auto;
+  min-height: 250px;
 }
 .table {
   border: 1px solid var(--sw-white);

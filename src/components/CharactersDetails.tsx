@@ -16,7 +16,6 @@ const CharactersDetails: React.FC<Props> = ({ characters }) => {
         queryKey: ['character', character],
         queryFn: () => fetchCharacter(character),
         staleTime: Infinity,
-        suspense: true,
       };
     })
   );
